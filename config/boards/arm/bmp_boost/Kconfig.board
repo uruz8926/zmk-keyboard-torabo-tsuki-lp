@@ -1,0 +1,3 @@
+config BOARD_BMP_BOOST
+    bool "BMP Boost"
+    select SOC_NRF52840
