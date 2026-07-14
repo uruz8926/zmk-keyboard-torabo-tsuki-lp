@@ -29,3 +29,6 @@ manifest:
       revision: main
   self:
     path: config
+boards:
+  - name: bmp_boost
+    shield: torabo_tsuki_lp
