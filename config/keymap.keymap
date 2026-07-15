@@ -7,13 +7,13 @@
     combos {
         compatible = "zmk,combos";
 
-        mo5 {
-            bindings = <&mo 5>;
+        mo4 {
+            bindings = <&mo 4>;
             key-positions = <52 54>;
         };
 
-        amo4 {
-            bindings = <&mo 4>;
+        mo5 {
+            bindings = <&mo 5>;
             key-positions = <52 53>;
         };
     };
