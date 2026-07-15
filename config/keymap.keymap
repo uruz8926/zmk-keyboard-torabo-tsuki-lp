@@ -30,11 +30,11 @@
 
         number {
             bindings = <
-&none   &none             &none         &none         &none         &none                          &none         &none             &none             &none         &none         &none
-&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&trans  &kp LEFT_BRACKET  &none         &none         &none         &none         &none  &trans    &trans        &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&trans  &none             &none         &kp LG(C)     &kp COMMA     &kp PERIOD    &none  &trans    &trans        &kp RIGHT_BRACE   &kp RBRC          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&trans  &trans            &trans        &none         &none         &none         &none  &kp HOME  &kp END       &trans            &trans            &kp NUMBER_0  &none         &kp DOT
+&none   &none             &none         &none         &none          &none                            &none         &none             &none             &none          &none              &none
+&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                     &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0       &kp BACKSPACE
+&trans  &kp LEFT_BRACKET  &none         &none         &none          &none           &none  &trans    &kp HOME      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS      &kp EQUAL          &kp RETURN
+&trans  &none             &none         &kp LG(C)     &kp LS(COMMA)  &kp LS(PERIOD)  &none  &trans    &kp END       &kp RIGHT_BRACE   &kp RBRC          &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp RSHIFT
+&trans  &trans            &trans        &none         &none          &none           &none  &kp HOME  &kp END       &trans            &trans            &kp NUMBER_0   &none              &kp DOT
             >;
         };
 
