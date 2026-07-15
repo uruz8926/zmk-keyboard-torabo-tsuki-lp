@@ -30,11 +30,11 @@
 
         number {
             bindings = <
-&none   &none         &none         &none         &none         &none                   &none   &none      &none      &none   &none   &none
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &kp AT_SIGN   &trans        &mkp RCLK     &mkp LCLK     &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans        &trans        &kp LG(C)     &trans        &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans        &trans        &none         &trans        &none   &none   &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&none   &none             &none         &none         &none         &none                        &none         &none             &none             &none          &none          &none
+&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                 &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0   &kp BACKSPACE
+&trans  &kp LEFT_BRACKET  &none         &none         &none         &none         &none  &trans  &trans        &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS      &kp EQUAL      &kp RETURN
+&trans  &none             &none         &kp LG(C)     &none         &none         &none  &trans  &trans        &kp RIGHT_BRACE   &kp TILDE         &kp SEMICOLON  &kp APOS       &kp RIGHT_SHIFT
+&trans  &trans            &trans        &none         &none         &none         &none  &trans  &trans        &trans            &trans            &kp SLASH      &kp BACKSLASH  &trans
             >;
         };
 
