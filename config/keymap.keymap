@@ -69,11 +69,11 @@
 
         number {
             bindings = <
-&none   &none             &none         &none         &none          &none                            &none         &none             &none             &none          &none                &none
-&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                     &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9   &kp NUMBER_0         &kp BACKSPACE
-&trans  &kp LEFT_BRACKET  &none         &none         &none          &none           &none  &trans    &kp HOME      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS      &kp EQUAL            &kp RETURN
-&trans  &none             &none         &kp LG(C)     &kp LS(COMMA)  &kp LS(PERIOD)  &none  &trans    &kp END       &str "「"         &str "」"         &kp SEMICOLON  &kp SINGLE_QUOTE     &kp RSHIFT
-&trans  &trans            &trans        &none         &none          &none           &none  &kp HOME  &kp END       &none             &none             &kp SLASH      &kp INTERNATIONAL_1  &none
+&none   &none             &none         &none         &none          &none                              &none         &none             &none             &none                &none         &none
+&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9         &kp NUMBER_0  &kp BACKSPACE
+&trans  &kp LEFT_BRACKET  &none         &none         &none          &none           &none     &trans   &kp HOME      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS            &kp EQUAL     &kp RETURN
+&trans  &none             &none         &kp LG(C)     &kp LS(COMMA)  &kp LS(PERIOD)  &none     &trans   &kp END       &str              &kp SEMICOLON     &kp SINGLE_QUOTE     &kp RSHIFT    &trans
+&trans  &trans            &none         &none         &none          &none           &kp HOME  &kp END  &none         &none             &kp SLASH         &kp INTERNATIONAL_1  &none
             >;
         };
 
@@ -89,11 +89,11 @@
 
         mouse {
             bindings = <
-&none   &none           &none           &none            &none  &none                &none     &none          &none      &none      &none  &none
-&trans  &none           &msc SCRL_UP    &none            &none  &none                &none     &none          &none      &none      &none  &none
-&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none  &none  &none  &kp HOME  &kp PG_UP      &mkp LCLK  &mkp RCLK  &none  &none
-&trans  &none           &none           &none            &none  &none  &none  &none  &kp END   &kp PAGE_DOWN  &none      &none      &none  &none
-&trans  &trans          &trans          &trans           &none  &none  &none  &none  &none     &none          &none      &none      &none  &none
+&none   &none           &none           &none            &none  &none                &none     &none          &none      &none         &none         &none
+&trans  &none           &msc SCRL_UP    &none            &none  &none                &none     &none          &none      &none         &none         &none
+&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none  &none  &none  &kp HOME  &kp PG_UP      &mkp LCLK  &mkp RCLK     &none         &none
+&trans  &none           &none           &none            &none  &none  &none  &none  &kp END   &kp PAGE_DOWN  &none      &none         &none         &none
+&trans  &trans          &trans          &trans           &none  &none  &none  &none  &none     &none          &none      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
             >;
         };
 
