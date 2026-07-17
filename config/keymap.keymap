@@ -79,31 +79,31 @@
 
         number {
             bindings = <
-&none   &none             &none         &none         &none          &none                            &none         &none             &none             &none             &none                &none
-&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                     &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0         &kp BACKSPACE
-&trans  &kp LEFT_BRACKET  &none         &none         &none          &none           &none  &none     &kp HOME      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS         &kp EQUAL            &kp RETURN
-&trans  &none             &none         &kp LG(C)     &kp LS(COMMA)  &kp LS(PERIOD)  &none  &none     &kp END       &none             &none             &kp SINGLE_QUOTE  &kp RSHIFT           &none
-&trans  &trans            &none         &none         &none          &none           &none  &kp HOME  &kp END       &none             &none             &kp SLASH         &kp INTERNATIONAL_1  &none
+&none   &none             &none         &none         &none          &none                             &none         &none             &none             &none             &none                &none
+&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0         &kp BACKSPACE
+&trans  &kp LEFT_BRACKET  &trans        &trans        &trans         &trans          &none   &none     &kp HOME      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS         &kp EQUAL            &kp RETURN
+&trans  &trans            &trans        &kp LG(C)     &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &trans    &kp END       &trans            &trans            &kp SINGLE_QUOTE  &kp RSHIFT           &trans
+&trans  &trans            &trans        &none         &none          &none           &trans  &kp HOME  &kp END       &none             &none             &kp SLASH         &kp INTERNATIONAL_1  &trans
             >;
         };
 
         function {
             bindings = <
-&none   &none    &none    &none    &none    &none                       &none             &none              &none             &none         &none         &none
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                      &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none  &none       &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &none  &none       &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&trans  &trans   &trans   &none    &none    &none    &none  &bt BT_NXT  &bt BT_PRV        &none              &none             &kp NUMBER_0  &doublezero   &kp DOT
+&none   &none    &none    &none    &none    &none                        &none             &none              &none             &none         &none         &none
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                       &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
+&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none   &none       &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans      &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&trans  &trans   &trans   &none    &none    &none    &trans  &bt BT_NXT  &bt BT_PRV        &none              &none             &kp NUMBER_0  &doublezero   &kp DOT
             >;
         };
 
         mouse {
             bindings = <
-&none           &none           &none            &none  &none       &none                &none     &none          &none      &none      &none  &none
-&trans          &msc SCRL_UP    &kp F2           &none  &kp LA(F4)  &none                &none     &none          &none      &mkp MCLK  &none  &none
-&msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none       &none  &none  &none  &kp HOME  &kp PG_UP      &mkp LCLK  &mkp RCLK  &none  &none
-&trans          &none           &none            &none  &none       &none  &none  &none  &kp END   &kp PAGE_DOWN  &none      &none      &none  &none
-&trans          &trans          &trans           &none  &none       &none  &none  &none  &none     &none          &none      &none      &none  &none
+&none             &none             &none            &none  &none       &none                &none     &none          &none      &none      &none  &none
+&trans            &msc MOVE_Y(10)   &kp F2           &none  &kp LA(F4)  &none                &none     &none          &none      &mkp MCLK  &none  &none
+&msc MOVE_X(-10)  &msc MOVE_Y(-10)  &msc MOVE_X(10)  &none  &none       &none  &none  &none  &kp HOME  &kp PG_UP      &mkp LCLK  &mkp RCLK  &none  &none
+&trans            &none             &none            &none  &none       &none  &none  &none  &kp END   &kp PAGE_DOWN  &none      &none      &none  &none
+&trans            &trans            &trans           &none  &none       &none  &none  &none  &none     &none          &none      &none      &none  &none
             >;
         };
 
