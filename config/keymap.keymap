@@ -94,11 +94,11 @@
 
         mouse {
             bindings = <
-&none              &none              &none             &none     &none       &none                &none  &none     &none      &none      &none      &none
-&trans             &msc MOVE_Y(300)   &kp F2            &kp HOME  &kp LA(F4)  &none                &none  &none     &none      &none      &mkp MCLK  &kp DELETE
-&msc MOVE_X(-250)  &msc MOVE_Y(-300)  &msc MOVE_X(250)  &kp END   &none       &none  &none  &none  &none  &kp HOME  &kp PG_UP  &mkp LCLK  &mkp RCLK  &trans
-&trans             &none              &none             &none     &none       &none  &none  &none  &none  &kp END   &kp PG_DN  &none      &trans     &none
-&trans             &trans             &trans            &none     &none       &none  &none  &none  &none  &none     &none      &trans     &trans     &trans
+&none              &none              &none             &none     &none       &none                &none  &none          &none      &none      &none   &none
+&trans             &msc MOVE_Y(300)   &kp F2            &kp HOME  &kp LA(F4)  &none                &none  &none          &none      &mkp MCLK  &none   &kp DELETE
+&msc MOVE_X(-250)  &msc MOVE_Y(-300)  &msc MOVE_X(250)  &kp END   &none       &none  &none  &none  &none  &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &none   &trans
+&trans             &none              &none             &none     &none       &none  &none  &none  &none  &kp PAGE_DOWN  &mkp MB4   &mkp MB5   &trans  &none
+&trans             &trans             &trans            &none     &none       &none  &none  &none  &none  &none          &none      &trans     &trans  &trans
             >;
         };
 
