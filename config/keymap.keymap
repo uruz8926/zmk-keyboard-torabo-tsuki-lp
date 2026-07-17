@@ -95,8 +95,8 @@
         mouse {
             bindings = <
 &none             &none             &none            &none  &none       &none                &none  &none     &none      &none      &none      &none
-&trans            &msc MOVE_Y(150)   &kp F2           &none  &kp LA(F4)  &none                &none  &none     &none      &none      &mkp MCLK  &kp DELETE
-&msc MOVE_X(-150)  &msc MOVE_Y(-150)  &msc MOVE_X(150)  &none  &none       &none  &none  &none  &none  &kp HOME  &kp PG_UP  &mkp LCLK  &mkp RCLK  &trans
+&trans            &msc MOVE_Y(250)   &kp F2           &none  &kp LA(F4)  &none                &none  &none     &none      &none      &mkp MCLK  &kp DELETE
+&msc MOVE_X(-250)  &msc MOVE_Y(-250)  &msc MOVE_X(250)  &none  &none       &none  &none  &none  &none  &kp HOME  &kp PG_UP  &mkp LCLK  &mkp RCLK  &trans
 &trans            &none             &none            &none  &none       &none  &none  &none  &none  &kp END   &kp PG_DN  &none      &trans     &none
 &trans            &trans            &trans           &none  &none       &none  &none  &none  &none  &none     &none      &trans     &trans     &trans
             >;
