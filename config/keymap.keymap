@@ -33,7 +33,7 @@
         doublezero: doublezero {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_0 &kp NUMBER_0>;
+            bindings = <&kp KP_NUMBER_0 &kp KP_NUMBER_0>;
             label = "DOUBLEZERO";
         };
 
@@ -84,11 +84,11 @@
 
         function {
             bindings = <
-&none   &none    &none    &none    &none    &none                        &none             &none              &none             &none         &none         &none
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                       &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none   &none       &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans      &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&trans  &trans   &trans   &none    &none    &none    &trans  &bt BT_NXT  &bt BT_PRV        &none              &none             &kp NUMBER_0  &doublezero   &kp DOT
+&none   &none    &none    &none    &none    &none                        &none             &none              &none             &none            &none            &none
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                       &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none   &none       &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans      &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans  &trans   &trans   &none    &none    &none    &trans  &bt BT_NXT  &bt BT_PRV        &none              &none             &kp KP_NUMBER_0  &doublezero      &kp KP_DOT
             >;
         };
 
