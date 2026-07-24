@@ -77,7 +77,7 @@
 &none   &none             &none         &none         &none         &none                           &none         &none             &none             &none             &none                &none
 &trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0         &trans
 &trans  &kp LEFT_BRACKET  &trans        &trans        &trans        &trans        &none   &none     &kp HOME      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS         &kp EQUAL            &trans
-&trans  &trans            &trans        &kp LG(C)     &none         &none         &trans  &trans    &kp END       &kp LS(COMMA)     &kp LS(PERIOD)    &kp SINGLE_QUOTE  &kp SEMICOLON        &trans
+&trans  &trans            &trans        &kp LG(C)     &none         &none         &trans  &trans    &kp END       &kp LBKT          &kp RBKT          &kp SINGLE_QUOTE  &kp SEMICOLON        &trans
 &trans  &trans            &trans        &none         &none         &none         &trans  &kp HOME  &kp END       &none             &none             &kp SLASH         &kp INTERNATIONAL_1  &trans
             >;
         };
@@ -94,11 +94,11 @@
 
         mouse {
             bindings = <
-&none   &none              &none              &none             &none          &none                    &none   &none  &none          &none      &none   &none
-&trans  &kp F2             &msc MOVE_Y(500)   &none             &kp LA(F4)     &kp F5                   &none   &none  &kp LS(LG(D))  &mkp MCLK  &none   &kp DELETE
-&trans  &msc MOVE_X(-250)  &msc MOVE_Y(-500)  &msc MOVE_X(250)  &kp PAGE_UP    &kp HOME  &none  &none   &none   &none  &mkp LCLK      &mkp RCLK  &none   &trans
-&trans  &none              &none              &none             &kp PAGE_DOWN  &kp END   &none  &to 0   &none   &none  &mkp MB4       &mkp MB5   &trans  &none
-&trans  &trans             &trans             &none             &to 0          &none     &none  &trans  &trans  &none  &none          &trans     &trans  &trans
+&none   &none              &none              &none             &none          &none                    &none   &none              &none          &none      &none   &none
+&trans  &kp F2             &msc MOVE_Y(500)   &none             &kp LA(F4)     &kp F5                   &none   &none              &kp LS(LG(D))  &mkp MCLK  &none   &kp DELETE
+&trans  &msc MOVE_X(-250)  &msc MOVE_Y(-500)  &msc MOVE_X(250)  &kp PAGE_UP    &kp HOME  &none  &none   &none   &mmv MOVE_Y(500)   &mkp LCLK      &mkp RCLK  &none   &trans
+&trans  &none              &none              &none             &kp PAGE_DOWN  &kp END   &none  &to 0   &none   &mmv MOVE_Y(-500)  &mkp MB4       &mkp MB5   &trans  &none
+&trans  &trans             &trans             &none             &to 0          &none     &none  &trans  &trans  &none              &none          &trans     &trans  &trans
             >;
         };
 
