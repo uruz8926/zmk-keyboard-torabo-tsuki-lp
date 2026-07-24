@@ -4,18 +4,3 @@ config SHIELD_TORABO_TSUKI_LP_LEFT
 
 config SHIELD_TORABO_TSUKI_LP_RIGHT
     def_bool $(shields_list_contains,torabo_tsuki_lp_right)
-
-config ZMK_HID_KEYBOARD_REPORT_USAGE
-    default 0x07
-
-config ZMK_HID_REPORT_TYPE_NKRO
-    default n
-
-config USB_DEVICE_STACK
-    default y
-
-config USB_HID
-    default y
-
-config USB_HID_KEYBOARD
-    default y
