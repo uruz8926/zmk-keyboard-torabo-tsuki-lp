@@ -11,13 +11,13 @@
         mo4 {
             bindings = <&mo 4>;
             key-positions = <52 54>;
-            timeout-ms = <10>;
+            timeout-ms = <1>;
         };
 
         mo5 {
             bindings = <&mo 5>;
             key-positions = <52 53>;
-            timeout-ms = <10>;
+            timeout-ms = <1>;
         };
 
         DeleteSheet {
