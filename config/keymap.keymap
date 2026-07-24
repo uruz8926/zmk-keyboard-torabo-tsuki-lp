@@ -135,3 +135,7 @@
         };
     };
 };
+&debounce {
+    debounce-press-ms = <5>;
+    debounce-release-ms = <5>;
+};
