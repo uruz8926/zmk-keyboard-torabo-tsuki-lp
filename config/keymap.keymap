@@ -159,12 +159,12 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        trigger1 {
+        AML1 {
             if-layers = <7>;
             then-layer = <3>;
         };
 
-        trigger2 {
+        AML2 {
             if-layers = <8>;
             then-layer = <3>;
         };
