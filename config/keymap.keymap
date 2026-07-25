@@ -1,9 +1,9 @@
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <input/processors.dtsi>
 
 / {
     combos {
@@ -97,11 +97,11 @@
 
         mouse {
             bindings = <
-&none   &none              &none              &none             &none          &none                    &none   &none              &none          &none      &none   &none
-&trans  &kp F2             &msc MOVE_Y(500)   &none             &kp LA(F4)     &kp F5                   &none   &none              &kp LS(LG(D))  &mkp MCLK  &none   &kp DELETE
-&trans  &msc MOVE_X(-250)  &msc MOVE_Y(-500)  &msc MOVE_X(250)  &kp PAGE_UP    &kp HOME  &none  &none   &none   &msc MOVE_Y(300)   &mkp LCLK      &mkp RCLK  &none   &trans
-&trans  &none              &none              &none             &kp PAGE_DOWN  &kp END   &none  &to 0   &none   &msc MOVE_Y(-300)  &mkp MB4       &mkp MB5   &trans  &none
-&trans  &trans             &trans             &none             &to 0          &none     &none  &trans  &trans  &none              &none          &trans     &trans  &trans
+&none   &none              &none              &none             &none          &none                     &none   &none              &none          &none      &none   &none
+&trans  &kp F2             &msc MOVE_Y(500)   &none             &kp LA(F4)     &kp F5                    &none   &none              &kp LS(LG(D))  &mkp MCLK  &none   &kp DELETE
+&trans  &msc MOVE_X(-250)  &msc MOVE_Y(-500)  &msc MOVE_X(250)  &kp PAGE_UP    &kp HOME  &none   &none   &none   &msc MOVE_Y(300)   &mkp LCLK      &mkp RCLK  &none   &trans
+&trans  &none              &none              &none             &kp PAGE_DOWN  &kp END   &trans  &trans  &none   &msc MOVE_Y(-300)  &mkp MB4       &mkp MB5   &trans  &none
+&trans  &trans             &trans             &none             &none          &none     &trans  &trans  &trans  &none              &none          &trans     &trans  &trans
             >;
         };
 
@@ -137,6 +137,4 @@
     };
 };
 
-&pointing_listener {
-    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &zip_temp_layer 3 500>;
-};
+&pointing_listener { input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &zip_temp_layer 3 500>; };
