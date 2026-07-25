@@ -163,6 +163,11 @@
             if-layers = <7>;
             then-layer = <3>;
         };
+
+        trigger2 {
+            if-layers = <8>;
+            then-layer = <3>;
+        };
     };
 };
 
