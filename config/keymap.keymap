@@ -136,6 +136,6 @@
         };
     };
 };
-&trackball_listener {
+&pointing_listener {
     input-processors = <&zip_temp_layer 3 500>;
 };
