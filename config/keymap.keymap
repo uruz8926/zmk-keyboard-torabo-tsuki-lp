@@ -175,5 +175,5 @@
 };
 
 &zip_temp_layer {
-    require-prior-idle-ms = <300>;
+    require-prior-idle-ms = <400>;
 };
