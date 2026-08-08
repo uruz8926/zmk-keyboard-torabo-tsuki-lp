@@ -32,7 +32,7 @@
         };
 
         altF4 {
-            bindings = <&none>;
+            bindings = <&kp LA(F4)>;
             key-positions = <58 59>;
         };
     };
