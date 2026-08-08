@@ -154,7 +154,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
-    };
+
         mouseboost {
             bindings = <
 &trans             &trans             &trans           &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
