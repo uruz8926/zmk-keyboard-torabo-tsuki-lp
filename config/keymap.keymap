@@ -57,6 +57,13 @@
             timeout-ms = <200>;
             layers = <0>;
         };
+
+        selectdisplay {
+            bindings = <&kp LA(SEMICOLON)>;
+            key-positions = <54 49>;
+            layers = <0>;
+            timeout-ms = <200>;
+        };
     };
 
     macros {
