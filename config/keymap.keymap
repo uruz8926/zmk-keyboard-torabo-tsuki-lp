@@ -47,14 +47,14 @@
         rowdel {
             bindings = <&kp LC(MINUS)>;
             key-positions = <54 35>;
-            timeout-ms = <200>;
+            timeout-ms = <400>;
             layers = <0>;
         };
 
         rowadd {
             bindings = <&kp LS(LC(SEMI))>;
             key-positions = <54 36>;
-            timeout-ms = <200>;
+            timeout-ms = <400>;
             layers = <0>;
         };
 
@@ -62,7 +62,7 @@
             bindings = <&kp LA(SEMICOLON)>;
             key-positions = <54 49>;
             layers = <0>;
-            timeout-ms = <200>;
+            timeout-ms = <400>;
         };
     };
 
