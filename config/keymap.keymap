@@ -24,13 +24,13 @@
         DeleteSheet {
             bindings = <&HDS>;
             key-positions = <54 64>;
-            timeout-ms = <500>;
+            timeout-ms = <50>;
         };
 
         NewSheet {
             bindings = <&kp LS(F11)>;
             key-positions = <54 50>;
-            timeout-ms = <500>;
+            timeout-ms = <50>;
         };
 
         altF4 {
