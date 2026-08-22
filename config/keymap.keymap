@@ -48,6 +48,7 @@
         rowadd {
             bindings = <&kp LC(LS(SEMI))>;
             key-positions = <54 36>;
+            timeout-ms = <200>;
         };
     };
 
