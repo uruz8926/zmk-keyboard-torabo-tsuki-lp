@@ -12,13 +12,13 @@
         mo4 {
             bindings = <&mo 4>;
             key-positions = <52 54>;
-            timeout-ms = <500>;
+            timeout-ms = <200>;
         };
 
         mo5 {
             bindings = <&mo 5>;
             key-positions = <52 53>;
-            timeout-ms = <500>;
+            timeout-ms = <200>;
         };
 
         DeleteSheet {
@@ -36,13 +36,13 @@
         altF4 {
             bindings = <&kp LA(F4)>;
             key-positions = <54 16>;
-            timeout-ms = <500>;
+            timeout-ms = <200>;
         };
 
         altsemi {
             bindings = <&kp LA(SEMI)>;
             key-positions = <49 54>;
-            timeout-ms = <500>;
+            timeout-ms = <200>;
         };
     };
 
