@@ -9,25 +9,25 @@
     combos {
         compatible = "zmk,combos";
 
-        mo4 {
+        MO4 {
             bindings = <&mo 4>;
             key-positions = <52 54>;
             timeout-ms = <200>;
         };
 
-        mo5 {
+        MO5 {
             bindings = <&mo 5>;
             key-positions = <52 53>;
             timeout-ms = <200>;
         };
 
-        DeleteSheet {
+        sheetdel {
             bindings = <&HDS>;
             key-positions = <54 64>;
             timeout-ms = <50>;
         };
 
-        NewSheet {
+        sheetadd {
             bindings = <&kp LS(F11)>;
             key-positions = <54 50>;
             timeout-ms = <50>;
@@ -39,10 +39,15 @@
             timeout-ms = <200>;
         };
 
-        altsemi {
-            bindings = <&kp LA(SEMI)>;
-            key-positions = <49 54>;
+        rowdel {
+            bindings = <&kp LA(MINUS)>;
+            key-positions = <54 35>;
             timeout-ms = <200>;
+        };
+
+        rowadd {
+            bindings = <&kp LC(LS(SEMI))>;
+            key-positions = <54 36>;
         };
     };
 
