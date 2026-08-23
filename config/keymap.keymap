@@ -64,6 +64,11 @@
             layers = <0>;
             timeout-ms = <400>;
         };
+
+        CAD {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <12 23>;
+        };
     };
 
     macros {
@@ -141,11 +146,11 @@
 
         window {
             bindings = <
-&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none       &none
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans           &trans      &kp LC(LA(DELETE))
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans           &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(HOME)     &kp LC(T)   &kp LC(LS(T))
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &kp LC(PAGE_UP)  &kp LC(F4)  &kp LC(PAGE_DOWN)
+&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none          &none
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp LC(LA(O))    &kp LC(LA(P))  &kp LC(LA(BACKSPACE))
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans           &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(HOME)     &kp LC(T)      &kp LC(LS(T))
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &kp LC(PAGE_UP)  &kp LC(F4)     &kp LC(PAGE_DOWN)
             >;
         };
 
@@ -191,11 +196,11 @@
 
         mouseboost {
             bindings = <
-&trans  &trans             &trans             &trans            &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &msc MOVE_Y(85)    &trans            &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &msc MOVE_X(-85)   &msc MOVE_Y(-85)   &msc MOVE_X(85)   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans             &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans             &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &msc MOVE_Y(85)   &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &msc MOVE_X(-85)  &msc MOVE_Y(-85)  &msc MOVE_X(85)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
