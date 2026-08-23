@@ -148,7 +148,7 @@
             bindings = <
 &none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none          &none
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp LC(LA(O))    &kp LC(LA(P))  &kp LC(LA(BACKSPACE))
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans           &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &kp LA(LC(L))    &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(HOME)     &kp LC(T)      &kp LC(LS(T))
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &kp LC(PAGE_UP)  &kp LC(F4)     &kp LC(PAGE_DOWN)
             >;
