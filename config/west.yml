@@ -23,7 +23,7 @@ manifest:
       revision: torabo-tsuki
     - name: zmk-driver-iqs7211e
       remote: uruz8926
-      revision: main
+      revision: master
     - name: zmk-feature-cdc-acm-bootloader-trigger
       remote: sekigon-gonnoc
       revision: v0.2
