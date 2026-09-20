@@ -113,7 +113,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
         };
     };
 
@@ -121,7 +121,8 @@
         compatible = "zmk,keymap";
 
         layer_0 {
-            bindings = <&none       &none         &none         &none  &none  &none                                            &none  &none  &none      &none     &none           &none
+            bindings = <
+&none       &none         &none         &none  &none  &none                                            &none  &none  &none      &none     &none           &none
 &kp ESCAPE  &kp Q         &kp W         &kp E  &kp R  &kp T                                            &kp Y  &kp U  &kp I      &kp O     &kp P           &kp BSPC
 &kp TAB     &kp A         &kp S         &kp D  &kp F  &kp G  &none                &none                &kp H  &kp J  &kp K      &kp L     &kp MINUS       &kp ENTER
 &kp LSHFT   &kp Z         &kp X         &kp C  &kp V  &kp B  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4  &kp N  &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
@@ -130,7 +131,8 @@
         };
 
         number {
-            bindings = <&none   &none                       &none                       &none                       &none                       &none                                       &none                       &none                       &none                       &none                       &none                       &none
+            bindings = <
+&none   &none                       &none                       &none                       &none                       &none                                       &none                       &none                       &none                       &none                       &none                       &none
 &trans  &HoT LS(NUMBER_1) NUMBER_1  &HoT LS(NUMBER_2) NUMBER_2  &HoT LS(NUMBER_3) NUMBER_3  &HoT LS(NUMBER_4) NUMBER_4  &HoT LS(NUMBER_5) NUMBER_5                  &HoT LS(NUMBER_6) NUMBER_6  &HoT LS(NUMBER_7) NUMBER_7  &HoT LS(NUMBER_8) NUMBER_8  &HoT LS(NUMBER_9) NUMBER_9  &HoT LS(NUMBER_0) NUMBER_0  &trans
 &trans  &kp LEFT_BRACKET            &trans                      &trans                      &trans                      &trans                      &none   &none   &trans                      &kp LS(NUMBER_8)            &kp LS(NUMBER_9)            &kp MINUS                   &kp EQUAL                   &trans
 &trans  &trans                      &trans                      &kp LG(C)                   &none                       &none                       &trans  &trans  &trans                      &kp RBKT                    &kp BACKSLASH               &kp SINGLE_QUOTE            &kp SEMICOLON               &trans
@@ -139,7 +141,8 @@
         };
 
         function {
-            bindings = <&none   &none    &none    &none    &none    &none                    &none             &none              &none             &none            &none            &none
+            bindings = <
+&none   &none    &none    &none    &none    &none                    &none             &none              &none             &none            &none            &none
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none   &none   &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &trans  &trans  &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
@@ -148,7 +151,8 @@
         };
 
         mouse {
-            bindings = <&none   &none              &none              &none                &none   &none                     &none    &none  &none      &none      &none   &none
+            bindings = <
+&none   &none              &none              &none                &none   &none                     &none    &none  &none      &none      &none   &none
 &trans  &kp F2             &msc MOVE_Y(170)   &kp LC(KP_NUMBER_0)  &none   &kp F5                    &none    &none  &none      &mkp MCLK  &none   &kp DELETE
 &trans  &msc MOVE_X(-170)  &msc MOVE_Y(-170)  &msc MOVE_X(170)     &none   &none   &none   &none     &none    &none  &mkp LCLK  &mkp RCLK  &mo 9   &trans
 &trans  &none              &none              &none                &none   &none   &trans  &trans    &none    &none  &mkp MB4   &mkp MB5   &trans  &none
@@ -157,7 +161,8 @@
         };
 
         window {
-            bindings = <&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none          &none
+            bindings = <
+&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none          &none
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp LC(LA(O))    &kp LC(LA(P))  &kp LC(LA(BACKSPACE))
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &kp LA(LC(L))    &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(HOME)     &kp LC(T)      &kp LC(LS(T))
@@ -166,7 +171,8 @@
         };
 
         desktop {
-            bindings = <&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none             &none           &none
+            bindings = <
+&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none             &none           &none
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans            &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans            &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &kp LC(LG(D))   &trans
@@ -175,7 +181,8 @@
         };
 
         useful {
-            bindings = <&none           &none             &none             &none             &none             &none                                 &none         &none         &none   &none          &none          &none
+            bindings = <
+&none           &none             &none             &none             &none             &none                                 &none         &none         &none   &none          &none          &none
 &trans          &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                      &trans        &trans        &trans  &trans         &trans         &kp DELETE
 &trans          &trans            &kp LS(LG(S))     &trans            &trans            &trans            &none   &none       &trans        &trans        &trans  &trans         &trans         &trans
 &VolDown        &kp C_MUTE        &Volup            &kp LG(LC(V))     &trans            &trans            &trans  &bt BT_CLR  &out OUT_BLE  &out OUT_USB  &trans  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
@@ -184,7 +191,8 @@
         };
 
         trigger1 {
-            bindings = <&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -193,7 +201,8 @@
         };
 
         trigger2 {
-            bindings = <&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -202,7 +211,8 @@
         };
 
         mouseboost {
-            bindings = <&trans  &trans            &trans            &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+            bindings = <
+&trans  &trans            &trans            &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans            &msc MOVE_Y(85)   &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &msc MOVE_X(-85)  &msc MOVE_Y(-85)  &msc MOVE_X(85)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans            &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
