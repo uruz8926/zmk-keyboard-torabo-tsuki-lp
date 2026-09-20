@@ -128,17 +128,17 @@
 &kp ESCAPE  &kp Q         &kp W         &kp E  &kp R  &kp T                                            &kp Y  &kp U  &kp I      &kp O     &kp P           &kp BSPC
 &kp TAB     &kp A         &kp S         &kp D  &kp F  &kp G  &none                &none                &kp H  &kp J  &kp K      &kp L     &kp MINUS       &kp ENTER
 &kp LSHFT   &kp Z         &kp X         &kp C  &kp V  &kp B  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4  &kp N  &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
-&kp LCTRL   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1  &mo 7  &mo 2  &kp SPACE            &hold                &mo 6  &none  &none      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
+&kp LCTRL   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1  &mo 7  &mo 2  &kp SPACE            &HoT RCTRL LC(F15)   &mo 6  &none  &none      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
             >;
         };
 
         number {
             bindings = <
-&none   &none             &none   &none      &none   &none                   &none   &none             &none             &none             &none                &none
-&trans  &hold             &hold   &hold      &hold   &hold                   &hold   &hold             &hold             &hold             &hold                &trans
-&trans  &kp LEFT_BRACKET  &trans  &trans     &trans  &trans  &none   &none   &trans  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS         &kp EQUAL            &trans
-&trans  &trans            &trans  &kp LG(C)  &none   &none   &trans  &trans  &trans  &kp RBKT          &kp BACKSLASH     &kp SINGLE_QUOTE  &kp SEMICOLON        &trans
-&trans  &trans            &trans  &none      &none   &none   &trans  &trans  &trans  &none             &none             &kp SLASH         &kp INTERNATIONAL_1  &trans
+&none   &none                       &none                       &none                       &none                       &none                                       &none                       &none                       &none                       &none                       &none                       &none
+&trans  &HoT LS(NUMBER_1) NUMBER_1  &HoT LS(NUMBER_2) NUMBER_2  &HoT LS(NUMBER_3) NUMBER_3  &HoT LS(NUMBER_4) NUMBER_4  &HoT LS(NUMBER_5) NUMBER_5                  &HoT LS(NUMBER_6) NUMBER_6  &HoT LS(NUMBER_7) NUMBER_7  &HoT LS(NUMBER_8) NUMBER_8  &HoT LS(NUMBER_9) NUMBER_9  &HoT LS(NUMBER_0) NUMBER_0  &trans
+&trans  &kp LEFT_BRACKET            &trans                      &trans                      &trans                      &trans                      &none   &none   &trans                      &kp LS(NUMBER_8)            &kp LS(NUMBER_9)            &kp MINUS                   &kp EQUAL                   &trans
+&trans  &trans                      &trans                      &kp LG(C)                   &none                       &none                       &trans  &trans  &trans                      &kp RBKT                    &kp BACKSLASH               &kp SINGLE_QUOTE            &kp SEMICOLON               &trans
+&trans  &trans                      &trans                      &none                       &none                       &none                       &trans  &trans  &trans                      &none                       &none                       &kp SLASH                   &kp INTERNATIONAL_1         &trans
             >;
         };
 
