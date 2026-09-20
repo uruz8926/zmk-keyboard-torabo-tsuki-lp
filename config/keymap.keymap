@@ -109,7 +109,7 @@
     behaviors {
         hold-or-tap:
 
-        HoTHoT: hold-or-tap {
+        HoT: HoT {
             compatible = "zmk,behavior-hold-tap";
             label = "HOT";
             bindings = <&kp>, <&kp>;
