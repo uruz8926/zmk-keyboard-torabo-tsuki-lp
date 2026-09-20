@@ -69,6 +69,11 @@
             bindings = <&kp LC(LA(DELETE))>;
             key-positions = <12 23>;
         };
+
+        ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <65 23>;
+        };
     };
 
     macros {
