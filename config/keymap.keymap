@@ -64,16 +64,6 @@
             layers = <0>;
             timeout-ms = <400>;
         };
-
-        CAD {
-            bindings = <&kp LC(LA(DELETE))>;
-            key-positions = <12 23>;
-        };
-
-        ctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <65 23>;
-        };
     };
 
     macros {
@@ -153,8 +143,8 @@
         mouse {
             bindings = <
 &none   &none              &none              &none                &none   &none                     &none    &none  &none      &none      &none   &none
-&trans  &kp F2             &msc MOVE_Y(170)   &kp LC(KP_NUMBER_0)  &none   &kp F5                    &none    &none  &none      &mkp MCLK  &none   &kp DELETE
-&trans  &msc MOVE_X(-170)  &msc MOVE_Y(-170)  &msc MOVE_X(170)     &none   &none   &none   &none     &none    &none  &mkp LCLK  &mkp RCLK  &mo 9   &trans
+&trans  &none              &msc MOVE_Y(170)   &kp LC(KP_NUMBER_0)  &none   &none                     &none    &none  &none      &mkp MCLK  &none   &kp DELETE
+&trans  &msc MOVE_X(-170)  &msc MOVE_Y(-170)  &msc MOVE_X(170)     &none   &none   &none   &none     &none    &none  &mkp LCLK  &mkp RCLK  &mo 0   &trans
 &trans  &none              &none              &none                &none   &none   &trans  &trans    &none    &none  &mkp MB4   &mkp MB5   &trans  &none
 &trans  &trans             &none              &none                &trans  &trans  &trans  &kp HOME  &kp END  &none  &none      &trans     &trans  &trans
             >;
@@ -162,11 +152,11 @@
 
         window {
             bindings = <
-&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none          &none
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &kp LC(LA(O))    &kp LC(LA(P))  &kp LC(LA(BACKSPACE))
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &kp LA(LC(L))    &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(HOME)     &kp LC(T)      &kp LC(LS(T))
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &kp LC(PAGE_UP)  &kp LC(F4)     &kp LC(PAGE_DOWN)
+&none   &none   &none   &none   &none   &none                   &none   &none   &none   &none            &none       &none
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans           &trans      &kp LC(LA(DELETE))
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &trans  &trans  &trans  &trans           &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(HOME)     &kp LC(T)   &kp LC(LS(T))
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none   &none   &kp LC(PAGE_UP)  &kp LC(F4)  &kp LC(PAGE_DOWN)
             >;
         };
 
@@ -207,16 +197,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        mouseboost {
-            bindings = <
-&trans  &trans            &trans            &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &msc MOVE_Y(85)   &trans           &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &msc MOVE_X(-85)  &msc MOVE_Y(-85)  &msc MOVE_X(85)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
