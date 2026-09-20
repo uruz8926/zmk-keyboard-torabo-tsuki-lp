@@ -1,4 +1,3 @@
-
 &i2c0 {
     status = "okay";
     compatible = "nordic,nrf-twim";
@@ -17,5 +16,6 @@
         init-symbol = "mini_trackpad_iqs7211e_init";
         init-length = <217>;
         scroller-mode;
+        v-invert;
     };
 };
