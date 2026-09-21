@@ -37,13 +37,6 @@
             layers = <0>;
         };
 
-        altF4 {
-            bindings = <&kp LA(F4)>;
-            key-positions = <54 16>;
-            timeout-ms = <200>;
-            layers = <0>;
-        };
-
         rowdel {
             bindings = <&kp LC(MINUS)>;
             key-positions = <54 35>;
