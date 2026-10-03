@@ -57,6 +57,11 @@
             layers = <0>;
             timeout-ms = <400>;
         };
+
+        dispreset {
+            bindings = <&kp LS(LC(LG(B)))>;
+            key-positions = <12 23>;
+        };
     };
 
     macros {
