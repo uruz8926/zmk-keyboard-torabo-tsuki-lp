@@ -129,11 +129,11 @@
 
         number {
             bindings = <
-&none   &none                       &none                       &none                       &none                       &none                                       &none                       &none                       &none                         &none                               &none                                     &none
-&trans  &HoT LS(NUMBER_1) NUMBER_1  &HoT LS(NUMBER_2) NUMBER_2  &HoT LS(NUMBER_3) NUMBER_3  &HoT LS(NUMBER_4) NUMBER_4  &HoT LS(NUMBER_5) NUMBER_5                  &HoT LS(NUMBER_6) NUMBER_6  &HoT LS(NUMBER_7) NUMBER_7  &HoT LS(NUMBER_8) NUMBER_8    &HoT LS(NUMBER_9) NUMBER_9          &HoT LS(NUMBER_0) NUMBER_0                &trans
-&trans  &kp LEFT_BRACKET            &trans                      &trans                      &trans                      &trans                      &none   &none   &trans                      &kp LS(NUMBER_8)            &kp LS(NUMBER_9)              &HoT LS(MINUS) MINUS                &HoT LS(EQUAL) EQUAL                      &trans
-&trans  &trans                      &trans                      &trans                      &trans                      &trans                      &trans  &trans  &trans                      &HoT LS(RBKT) RBKT          &HoT LS(BACKSLASH) BACKSLASH  &HoT LS(SINGLE_QUOTE) SINGLE_QUOTE  &HoT LS(SEMICOLON) SEMICOLON              &trans
-&trans  &trans                      &trans                      &trans                      &trans                      &trans                      &trans  &trans  &trans                      &none                       &none                         &HoT LS(SLASH) SLASH                &HoT LS(INTERNATIONAL_1) INTERNATIONAL_1  &trans
+&none   &none             &none         &none         &none         &none                         &none         &none               &none                         &none                               &none                                     &none
+&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8                  &kp NUMBER_9                        &kp NUMBER_0                              &trans
+&trans  &kp LEFT_BRACKET  &trans        &trans        &trans        &trans        &none   &none   &trans        &kp LS(NUMBER_8)    &kp LS(NUMBER_9)              &HoT LS(MINUS) MINUS                &HoT LS(EQUAL) EQUAL                      &trans
+&trans  &trans            &trans        &trans        &trans        &trans        &trans  &trans  &trans        &HoT LS(RBKT) RBKT  &HoT LS(BACKSLASH) BACKSLASH  &HoT LS(SINGLE_QUOTE) SINGLE_QUOTE  &HoT LS(SEMICOLON) SEMICOLON              &trans
+&trans  &trans            &trans        &trans        &trans        &trans        &trans  &trans  &trans        &none               &none                         &HoT LS(SLASH) SLASH                &HoT LS(INTERNATIONAL_1) INTERNATIONAL_1  &trans
             >;
         };
 
