@@ -107,7 +107,7 @@
 &none       &none         &none         &none                     &none        &none                                              &none        &none  &none      &none     &none           &none
 &kp ESCAPE  &kp Q         &kp W         &kp E                     &kp R        &kp T                                              &kp Y        &kp U  &kp I      &kp O     &kp P           &kp BACKSPACE
 &kp TAB     &kp A         &kp S         &kp D                     &kp F        &kp G  &none                  &none                &kp H        &kp J  &kp K      &kp L     &kp MINUS       &none
-&kp LSHFT   &kp Z         &kp X         &kp C                     &kp V        &kp B  &none                  &kp LC(F15)          &kp N        &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
+&kp LSHFT   &kp Z         &kp X         &kp C                     &kp V        &kp B  &kp LG(LA(SPACE))      &kp LC(F15)          &kp N        &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
 &kp LCTRL   &kp LEFT_GUI  &kp LEFT_ALT  &HoT LC(LA(SPACE)) LG(C)  &lt 1 SPACE  &mo 7  &lt 2 INTERNATIONAL_5  &kp INTERNATIONAL_4  &lt 6 ENTER  &none  &none      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
             >;
         };
@@ -154,11 +154,11 @@
 
         desktop {
             bindings = <
-&none  &none  &none  &none              &none  &none                &none  &none  &none  &none             &none           &none
-&none  &none  &none  &none              &none  &none                &none  &none  &none  &none             &none           &none
-&none  &none  &none  &none              &none  &none  &none  &none  &none  &none  &none  &none             &none           &none
-&none  &none  &none  &kp LG(LA(SPACE))  &none  &none  &none  &none  &none  &none  &none  &none             &kp LC(LG(D))   &none
-&none  &none  &none  &none              &none  &none  &none  &none  &none  &none  &none  &kp LC(LG(LEFT))  &kp LC(LG(F4))  &kp LC(LG(RIGHT))
+&none  &none  &none  &none  &none  &none                &none  &none  &none  &none             &none           &none
+&none  &none  &none  &none  &none  &none                &none  &none  &none  &none             &none           &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none             &none           &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none             &kp LC(LG(D))   &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LC(LG(LEFT))  &kp LC(LG(F4))  &kp LC(LG(RIGHT))
             >;
         };
 
