@@ -101,7 +101,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -150,21 +150,21 @@
 
         mouse {
             bindings = <
-&none           &none  &none             &none              &none                &none                        &none    &none      &none      &none  &none  &none
-&none           &none  &kp F2            &msc MOVE_Y(170)   &kp LC(KP_NUMBER_0)  &kp LA(F4)                   &none    &none      &mkp MCLK  &none  &none  &kp DELETE
-&none           &none  &msc MOVE_X(-85)  &msc MOVE_Y(-170)  &msc MOVE_X(85)      &none       &none  &none     &none    &mkp LCLK  &mkp RCLK  &none  &none  &none
-&kp LEFT_SHIFT  &none  &none             &none              &none                &none       &none  &none     &none    &mkp MB4   &mkp MB5   &none  &none  &none
-&kp LCTRL       &none  &none             &none              &none                &none       &none  &kp HOME  &kp END  &none      &none      &none  &none  &none
+&none           &none         &none             &none              &none                &none                        &none    &none      &none      &none  &none  &none
+&none           &none         &kp F2            &msc MOVE_Y(170)   &kp LC(KP_NUMBER_0)  &kp LA(F4)                   &none    &none      &mkp MCLK  &none  &none  &kp DELETE
+&none           &none         &msc MOVE_X(-85)  &msc MOVE_Y(-170)  &msc MOVE_X(85)      &none       &none  &none     &none    &mkp LCLK  &mkp RCLK  &none  &none  &none
+&kp LEFT_SHIFT  &none         &none             &none              &none                &none       &none  &none     &none    &mkp MB4   &mkp MB5   &none  &none  &none
+&kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT      &none              &none                &none       &none  &kp HOME  &kp END  &none      &none      &none  &none  &none
             >;
         };
 
         window {
             bindings = <
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none            &none       &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none            &none       &kp LC(LA(DELETE))
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none            &none       &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LA(HOME)     &kp LC(T)   &kp LC(LS(T))
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LC(PAGE_UP)  &kp LC(F4)  &kp LC(PAGE_DOWN)
+&none  &none  &none  &none  &none          &none                &none  &none  &none  &none            &none       &none
+&none  &none  &none  &none  &none          &none                &none  &none  &none  &none            &none       &kp LC(LA(DELETE))
+&none  &none  &none  &none  &none          &none  &none  &none  &none  &none  &none  &none            &none       &none
+&none  &none  &none  &none  &kp LC(LA(V))  &none  &none  &none  &none  &none  &none  &kp LA(HOME)     &kp LC(T)   &kp LC(LS(T))
+&none  &none  &none  &none  &none          &none  &none  &none  &none  &none  &none  &kp LC(PAGE_UP)  &kp LC(F4)  &kp LC(PAGE_DOWN)
             >;
         };
 
