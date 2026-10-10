@@ -65,13 +65,6 @@
     };
 
     macros {
-        doublezero: doublezero {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp KP_NUMBER_0 &kp KP_NUMBER_0>;
-            label = "DOUBLEZERO";
-        };
-
         HDS: HDS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -104,15 +97,6 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
-
-        HoT_MO: HoT_MO {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOT_MO";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-        };
     };
 
     keymap {
@@ -144,7 +128,7 @@
 &none           &kp F1        &kp F2        &kp F3   &kp F4   &kp F5                 &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &none           &kp F6        &kp F7        &kp F8   &kp F9   &kp F10  &none  &none  &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
 &kp LEFT_SHIFT  &kp F11       &kp F12       &kp F13  &kp F14  &kp F15  &none  &none  &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &none    &none    &none    &none  &none  &none             &none              &none             &kp KP_NUMBER_0  &none            &kp KP_DOT
+&kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &none    &none    &none    &none  &none  &none             &none              &none             &kp KP_NUMBER_0  &kp COMMA        &kp KP_DOT
             >;
         };
 
