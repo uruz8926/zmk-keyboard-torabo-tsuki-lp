@@ -209,11 +209,11 @@
 
         numbershift {
             bindings = <
-&none   &none             &none         &none         &none         &none                         &none         &none               &none                         &none                               &none                                     &none
-&trans  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8                  &kp NUMBER_9                        &kp NUMBER_0                              &trans
-&trans  &kp LEFT_BRACKET  &trans        &trans        &trans        &trans        &none   &none   &trans        &kp LS(NUMBER_8)    &kp LS(NUMBER_9)              &HoT LS(MINUS) MINUS                &HoT LS(EQUAL) EQUAL                      &trans
-&trans  &trans            &trans        &trans        &trans        &trans        &trans  &trans  &trans        &HoT LS(RBKT) RBKT  &HoT LS(BACKSLASH) BACKSLASH  &HoT LS(SINGLE_QUOTE) SINGLE_QUOTE  &HoT LS(SEMICOLON) SEMICOLON              &trans
-&trans  &trans            &trans        &trans        &trans        &trans        &trans  &trans  &trans        &none               &none                         &HoT LS(SLASH) SLASH                &HoT LS(INTERNATIONAL_1) INTERNATIONAL_1  &trans
+&none  &none             &none             &none             &none             &none                           &none             &none             &none              &none                 &none                    &none
+&none  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)      &kp LS(NUMBER_0)         &none
+&none  &none             &none             &none             &none             &none             &none  &none  &none             &none             &none              &kp LS(MINUS)         &kp LS(EQUAL)            &none
+&none  &none             &none             &none             &none             &none             &none  &none  &none             &kp LS(RBKT)      &kp LS(BACKSLASH)  &kp LS(SINGLE_QUOTE)  &kp LS(SEMICOLON)        &none
+&none  &none             &none             &none             &none             &none             &none  &none  &none             &none             &none              &kp LS(SLASH)         &kp LS(INTERNATIONAL_1)  &none
             >;
         };
     };
