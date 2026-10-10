@@ -120,11 +120,11 @@
 
         layer_0 {
             bindings = <
-&none       &none         &none         &none  &none        &none                                                      &none        &none  &none      &none     &none           &none
-&kp ESCAPE  &kp Q         &kp W         &kp E  &kp R        &kp T                                                      &kp Y        &kp U  &kp I      &kp O     &kp P           &kp BACKSPACE
-&kp TAB     &kp A         &kp S         &kp D  &kp F        &kp G  &none                &none                          &kp H        &kp J  &kp K      &kp L     &kp MINUS       &none
-&kp LSHFT   &kp Z         &kp X         &kp C  &kp V        &kp B  &none                &HoT LS(LEFT_CONTROL) LC(F15)  &kp N        &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
-&kp LCTRL   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1  &lt 2 SPACE  &mo 7  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4            &lt 6 ENTER  &none  &none      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
+&none       &none         &none         &none  &none      &none                                                        &none        &none  &none      &none     &none           &none
+&kp ESCAPE  &kp Q         &kp W         &kp E  &kp R      &kp T                                                        &kp Y        &kp U  &kp I      &kp O     &kp P           &kp BACKSPACE
+&kp TAB     &kp A         &kp S         &kp D  &kp F      &kp G  &none                  &none                          &kp H        &kp J  &kp K      &kp L     &kp MINUS       &none
+&kp LSHFT   &kp Z         &kp X         &kp C  &kp V      &kp B  &none                  &HoT LS(LEFT_CONTROL) LC(F15)  &kp N        &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
+&kp LCTRL   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1  &kp SPACE  &mo 7  &lt 2 INTERNATIONAL_5  &kp INTERNATIONAL_4            &lt 6 ENTER  &none  &none      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
             >;
         };
 
@@ -140,11 +140,11 @@
 
         function {
             bindings = <
-&none  &none             &none             &none             &none             &none                           &none             &none              &none             &none            &none            &none
-&none  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&none  &none             &none             &none             &none             &none             &none  &none  &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&none  &none             &none             &none             &none             &none             &none  &none  &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&none  &none             &none             &none             &none             &none             &none  &none  &none             &none              &none             &kp KP_NUMBER_0  &doublezero      &kp KP_DOT
+&none  &none    &none    &none    &none    &none                  &none             &none              &none             &none            &none            &none
+&none  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                 &kp KP_NUMLOCK    &kp LS(N8)         &kp LS(NUMBER_9)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&none  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none  &none  &kp LS(MINUS)     &kp LS(SEMICOLON)  &kp MINUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&none  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &none  &none  &kp SINGLE_QUOTE  &kp LS(APOS)       &kp SLASH         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&none  &none    &none    &none    &none    &none    &none  &none  &none             &none              &none             &kp KP_NUMBER_0  &none            &kp KP_DOT
             >;
         };
 
@@ -180,11 +180,11 @@
 
         useful {
             bindings = <
-&none           &none             &none       &none          &none   &none                                     &none         &none         &none          &none          &none          &none
-&none           &kp F1            &kp F2      &kp F3         &kp F4  &kp F5                                    &kp F11       &kp F12       &kp F13        &kp F14        &kp F15        &kp DELETE
-&none           &kp F6            &kp F7      &kp F8         &kp F9  &kp F10        &none          &none       &none         &kp LCTRL     &kp LS(LCTRL)  &none          &none          &none
-&VolDown        &kp C_MUTE        &Volup      &kp LG(LC(V))  &none   &kp LS(LG(F))  &kp LS(LG(S))  &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &none          &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
-&kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp LG(A)      &none   &none          &none          &none       &none         &none         &none          &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3
+&none           &none             &none             &none             &none             &none                                        &none         &none         &none          &none          &none          &none
+&none           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                             &none         &none         &none          &none          &none          &kp DELETE
+&none           &none             &none             &none             &none             &none             &none          &none       &none         &kp LCTRL     &kp LS(LCTRL)  &none          &none          &none
+&VolDown        &kp C_MUTE        &Volup            &kp LG(LC(V))     &none             &kp LS(LG(F))     &kp LS(LG(S))  &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &none          &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
+&kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT        &kp LG(A)         &none             &none             &none          &none       &none         &none         &none          &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3
             >;
         };
 
@@ -205,16 +205,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        numbershift {
-            bindings = <
-&none  &none             &none             &none             &none             &none                           &none             &none             &none              &none                 &none                    &none
-&none  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)      &kp LS(NUMBER_0)         &none
-&none  &none             &none             &none             &none             &none             &none  &none  &none             &none             &none              &kp LS(MINUS)         &kp LS(EQUAL)            &none
-&none  &none             &none             &none             &none             &none             &none  &none  &none             &kp LS(RBKT)      &kp LS(BACKSLASH)  &kp LS(SINGLE_QUOTE)  &kp LS(SEMICOLON)        &none
-&none  &none             &none             &none             &none             &none             &none  &none  &none             &none             &none              &kp LS(SLASH)         &kp LS(INTERNATIONAL_1)  &none
             >;
         };
     };
