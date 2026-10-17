@@ -229,7 +229,7 @@
 &trans            &trans             &trans            &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&msc MOVE_Y(170)  &msc MOVE_Y(-170)  &msc MOVE_X(-85)  &msc MOVE_X(85)  &kp LG(LA(SPACE))
+&zoom_up        &zoom_down    &trans            &trans             &kp LC(NUMBER_0)
             >;
         };
 
@@ -240,7 +240,7 @@
 &trans            &trans             &trans            &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&msc MOVE_Y(170)  &msc MOVE_Y(-170)  &msc MOVE_X(-85)  &msc MOVE_X(85)  &kp LG(LA(SPACE))
+&zoom_up        &zoom_down    &trans            &trans             &kp LC(NUMBER_0)
             >;
         };
     };
