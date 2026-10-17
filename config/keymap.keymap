@@ -213,11 +213,11 @@
 
         useful {
             bindings = <
-&none   &none             &none             &none             &none                 &none                                        &none         &none         &none  &none          &none          &none
-&none   &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)                             &kp LC(Y)     &kp LC(U)     &none  &none          &kp LC(P)      &kp DELETE
-&none   &kp LC(A)         &kp LC(S)         &kp LG(D)         &kp LC(F)             &kp LC(G)         &none          &none       &none         &none         &none  &none          &none          &none
-&none   &kp LC(Z)         &kp LC(X)         &kp LC(C)         &HoT LC(LS(V)) LC(V)  &kp LC(B)         &none          &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &none  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
-&none   &none             &none             &none             &kp LC(LG(V))         &kp LG(LS(F))     &kp LG(LS(S))  &none       &none         &none         &none  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3
+&none   &none             &none             &none             &none                 &none                                        &none         &none         &none      &none          &none          &none
+&none   &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)      &kp LG(NUMBER_5)                             &kp LC(Y)     &kp LC(U)     &kp LC(I)  &kp LC(O)      &kp LC(P)      &kp DELETE
+&none   &kp LC(A)         &kp LC(S)         &kp LG(D)         &kp LC(F)             &kp LC(G)         &none          &none       &none         &none         &none      &none          &none          &none
+&none   &kp LC(Z)         &kp LC(X)         &kp LC(C)         &HoT LC(LS(V)) LC(V)  &kp LC(B)         &none          &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &none      &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
+&none   &none             &none             &none             &kp LC(LG(V))         &kp LG(LS(F))     &kp LG(LS(S))  &none       &none         &none         &none      &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3
 &Volup  &VolDown          &kp C_PREV        &kp C_NEXT        &kp C_PLAY_PAUSE
             >;
         };
