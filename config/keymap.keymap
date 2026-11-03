@@ -257,7 +257,7 @@
 &trans            &trans             &trans            &trans           &trans             &trans                                             &trans       &trans  &trans     &trans    &trans          &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans                &trans               &trans       &trans  &trans     &trans    &trans          &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans                &none                &trans       &trans  &trans     &trans    &trans          &trans
-&kp LEFT_GUI      &kp LEFT_CTRL      &trans            &none            &trans             &trans  &lt 2 LANG2           &kp LANG1            &lt 10 ENTER &trans  &trans     &trans    &trans          &trans
+&kp LEFT_GUI      &kp LCTRL          &trans            &none            &trans             &trans  &lt 2 LANG2           &kp LANG1            &lt 10 ENTER &trans  &trans     &trans    &trans          &trans
 &trans            &trans             &trans            &trans           &kp LG(SPACE)
             >;
         };
