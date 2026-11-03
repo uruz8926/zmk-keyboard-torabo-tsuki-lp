@@ -257,12 +257,12 @@
 
         ipad_base {
             bindings = <
-&trans        &trans     &trans  &trans  &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
-&trans        &trans     &trans  &trans  &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
-&trans        &trans     &trans  &trans  &trans         &trans  &trans       &trans     &trans        &trans  &trans  &trans  &trans  &trans
-&trans        &trans     &trans  &trans  &trans         &trans  &trans       &none      &trans        &trans  &trans  &trans  &trans  &trans
-&kp LEFT_GUI  &kp LCTRL  &trans  &none   &trans         &trans  &lt 2 LANG2  &kp LANG1  &lt 10 ENTER  &trans  &trans  &trans  &trans  &trans
-&trans        &trans     &trans  &trans  &kp LG(SPACE)
+&trans           &trans              &trans              &trans           &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
+&trans           &trans              &trans              &trans           &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
+&trans           &trans              &trans              &trans           &trans         &trans  &trans       &trans     &trans        &trans  &trans  &trans  &trans  &trans
+&trans           &trans              &trans              &trans           &trans         &trans  &trans       &none      &trans        &trans  &trans  &trans  &trans  &trans
+&kp LEFT_GUI     &kp LCTRL           &trans              &none            &trans         &trans  &lt 2 LANG2  &kp LANG1  &lt 10 ENTER  &trans  &trans  &trans  &trans  &trans
+&msc MOVE_Y(20)  &msc (MOVE_Y(-20))  &msc (MOVE_X(-20))  &msc MOVE_X(20)  &kp LG(SPACE)
             >;
         };
 
