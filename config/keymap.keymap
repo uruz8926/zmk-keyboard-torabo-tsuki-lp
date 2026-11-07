@@ -157,7 +157,7 @@
 &kp TAB           &alt_a_stab          &kp S               &kp D            &kp F            &kp G  &none        &none              &kp H        &kp J  &kp K      &kp L     &kp MINUS       &none
 &kp LSHFT         &kp Z                &kp X               &kp C            &kp V            &kp B  &none        &kp LG(LA(SPACE))  &kp N        &kp M  &kp COMMA  &kp DOT   &kp UP_ARROW    &kp SLASH
 &kp LCTRL         &kp LEFT_GUI         &kp LEFT_ALT        &none            &lt 1 SPACE      &mo 7  &lt 2 LANG2  &kp LANG1          &lt 6 ENTER  &none  &none      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
-&msc MOVE_Y(170)  &msc (MOVE_Y(-170))  &msc (MOVE_X(-85))  &msc MOVE_X(85)  &kp LG(LS(F23))
+&msc MOVE_Y(340)  &msc (MOVE_Y(-340))  &msc (MOVE_X(-170))  &msc MOVE_X(170)  &kp LG(LS(F23))
             >;
         };
 
