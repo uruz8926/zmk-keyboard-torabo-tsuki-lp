@@ -196,11 +196,11 @@
 
         window {
             bindings = <
-&none   &none   &none   &none   &none          &none                &none  &none  &none  &none            &none       &none
-&none   &none   &none   &none   &none          &none                &none  &none  &none  &none            &none       &kp LC(LA(DELETE))
-&none   &none   &none   &none   &none          &none  &none  &none  &none  &none  &none  &none            &none       &none
-&none   &none   &none   &none   &kp LC(LA(V))  &none  &none  &none  &none  &none  &none  &kp LA(HOME)     &kp LC(T)   &kp LC(LS(T))
-&none   &none   &none   &none   &none          &none  &none  &none  &none  &none  &none  &kp LC(PAGE_UP)  &kp LC(F4)  &kp LC(PAGE_DOWN)
+&none   &none   &none   &none   &none   &none                &none  &none  &none  &none            &none       &none
+&none   &none   &none   &none   &none   &none                &none  &none  &none  &none            &none       &kp LC(LA(DELETE))
+&none   &none   &none   &none   &none   &none  &none  &none  &none  &none  &none  &none            &none       &none
+&none   &none   &none   &none   &none   &none  &none  &none  &none  &none  &none  &kp LA(HOME)     &kp LC(T)   &kp LC(LS(T))
+&none   &none   &none   &none   &none   &none  &none  &none  &none  &none  &none  &kp LC(PAGE_UP)  &kp LC(F4)  &kp LC(PAGE_DOWN)
 &trans  &trans  &trans  &trans  &trans
             >;
         };
