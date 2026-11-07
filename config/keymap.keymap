@@ -226,7 +226,7 @@
 &none       &none             &none             &none             &none             &none             &none          &none       &none         &none         &none   &kp LG(L)      &none          &none
 &VolDown    &kp C_MUTE        &Volup            &none             &none             &none             &none          &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &tog 9  &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
 &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT        &none             &kp LC(LG(V))     &kp LG(LS(F))     &kp LG(LS(S))  &none       &none         &none         &none   &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3
-&trans      &trans            &trans            &trans            &trans
+&Volup      &VolDown          &kp C_PREV        &kp C_NEXT        &kp C_PLAY_PAUSE
             >;
         };
 
