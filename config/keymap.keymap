@@ -295,12 +295,12 @@
 
         ipad_base {
             bindings = <
-&trans           &trans              &trans              &trans           &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
-&trans           &trans              &trans              &trans           &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
-&trans           &trans              &trans              &trans           &trans         &trans  &trans       &trans     &trans        &trans  &trans  &trans  &trans  &trans
-&trans           &trans              &trans              &trans           &trans         &trans  &none        &ipad_applib  &trans     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_GUI     &kp GLOBE           &trans              &ipad_siri       &trans         &trans  &lt 2 LANG2  &kp LANG1  &lt 10 ENTER  &trans  &trans  &trans  &trans  &trans
-&msc MOVE_Y(20)  &msc (MOVE_Y(-20))  &msc (MOVE_X(-20))  &msc MOVE_X(20)  &kp LG(SPACE)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none  &ipad_applib  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_GUI  &kp GLOBE  &trans  &ipad_siri  &trans  &trans  &lt 2 LANG2  &kp LANG1  &lt 10 ENTER  &trans  &trans  &trans  &trans  &trans
+&msc MOVE_Y(40)  &msc (MOVE_Y(-40))  &msc (MOVE_X(-40))  &msc MOVE_X(40)  &kp LG(SPACE)
             >;
         };
 
@@ -325,6 +325,17 @@
 &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        ipad_mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &msc MOVE_Y(20)  &trans  &trans  &trans  &trans  &mkp MCLK  &trans  &trans  &kp DELETE
+&kp LC(TAB)  &trans  &msc (MOVE_X(-20))  &msc (MOVE_Y(-20))  &msc MOVE_X(20)  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 
     conditional_layers {
@@ -338,6 +349,16 @@
         AML2 {
             if-layers = <8>;
             then-layer = <3>;
+        };
+
+        AML3 {
+            if-layers = <9 8>;
+            then-layer = <12>;
+        };
+
+        AML4 {
+            if-layers = <9 7>;
+            then-layer = <12>;
         };
     };
 };
