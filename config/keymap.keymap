@@ -114,6 +114,13 @@
             label = "IPAD_FULL";
         };
 
+        ipad_lock: ipad_lock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp GLOBE &macro_tap &kp N &macro_release &kp GLOBE>;
+            label = "IPAD_LOCK";
+        };
+
         ipad_siri: ipad_siri {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -294,7 +301,7 @@
             bindings = <
 &none   &none      &none      &none      &none                       &none                                        &none          &none         &none      &none          &none          &none
 &none   &none      &none      &none      &none                       &none                                        &kp LG(LS(Z))  &kp LG(U)     &kp LG(I)  &kp LG(O)      &kp LG(P)      &kp DELETE
-&none   &kp LG(A)  &kp LG(S)  &kp LG(H)  &kp LG(F)                   &kp LG(G)  &none                 &none       &none          &none         &none      &none          &none          &none
+&none   &kp LG(A)  &kp LG(S)  &kp LG(H)  &kp LG(F)                   &kp LG(G)  &none                 &none       &none          &none         &none      &ipad_lock     &none          &none
 &none   &kp LG(Z)  &kp LG(X)  &kp LG(C)  &HoT (LG(LA(LS(V)))) LG(V)  &kp LG(B)  &none                 &bt BT_CLR  &out OUT_USB   &out OUT_BLE  &tog 9     &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3
 &none   &none      &none      &none      &none                       &none      &kp LG(LS(NUMBER_3))  &none       &none          &none         &none      &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3
 &trans  &trans     &trans     &trans     &trans
