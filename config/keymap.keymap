@@ -117,8 +117,15 @@
         ipad_lock: ipad_lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp GLOBE &macro_tap &kp N &macro_release &kp GLOBE>;
+            bindings = <&macro_press &kp TAB &macro_tap &kp L &macro_release &kp TAB>;
             label = "IPAD_LOCK";
+        };
+
+        ipad_applib: ipad_applib {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp GLOBE &kp LSHFT &macro_tap &kp A &macro_release &kp LSHFT &kp GLOBE>;
+            label = "IPAD_APPLIB";
         };
 
         ipad_siri: ipad_siri {
@@ -291,7 +298,7 @@
 &trans           &trans              &trans              &trans           &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
 &trans           &trans              &trans              &trans           &trans         &trans                          &trans        &trans  &trans  &trans  &trans  &trans
 &trans           &trans              &trans              &trans           &trans         &trans  &trans       &trans     &trans        &trans  &trans  &trans  &trans  &trans
-&trans           &trans              &trans              &trans           &trans         &trans  &none        &none      &trans        &trans  &trans  &trans  &trans  &trans
+&trans           &trans              &trans              &trans           &trans         &trans  &none        &ipad_applib  &trans     &trans  &trans  &trans  &trans  &trans
 &kp LEFT_GUI     &kp GLOBE           &trans              &ipad_siri       &trans         &trans  &lt 2 LANG2  &kp LANG1  &lt 10 ENTER  &trans  &trans  &trans  &trans  &trans
 &msc MOVE_Y(20)  &msc (MOVE_Y(-20))  &msc (MOVE_X(-20))  &msc MOVE_X(20)  &kp LG(SPACE)
             >;
