@@ -107,6 +107,13 @@
             label = "IPAD_TILE_R";
         };
 
+        ipad_siri: ipad_siri {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp GLOBE &macro_tap &kp S &macro_release &kp GLOBE>;
+            label = "IPAD_SIRI";
+        };
+
         zoom_up: zoom_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -271,7 +278,7 @@
 &trans            &trans             &trans            &trans           &trans             &trans                                             &trans       &trans  &trans     &trans    &trans          &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans                &trans               &trans       &trans  &trans     &trans    &trans          &trans
 &trans            &trans             &trans            &trans           &trans             &trans  &trans                &none                &trans       &trans  &trans     &trans    &trans          &trans
-&kp LEFT_GUI      &kp GLOBE          &trans            &none            &trans             &trans  &lt 2 LANG2          &kp LANG1            &lt 10 ENTER &trans  &trans     &trans    &trans          &trans
+&kp LEFT_GUI      &kp GLOBE          &trans            &ipad_siri       &trans             &trans  &lt 2 LANG2          &kp LANG1            &lt 10 ENTER &trans  &trans     &trans    &trans          &trans
 &trans            &trans             &trans            &trans           &kp LG(SPACE)
             >;
         };
