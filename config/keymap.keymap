@@ -12,7 +12,7 @@
         MO4 {
             bindings = <&mo 4>;
             key-positions = <52 54>;
-            timeout-ms = <201>;
+            timeout-ms = <200>;
             layers = <0>;
         };
 
